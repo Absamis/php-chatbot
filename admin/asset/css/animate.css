@@ -1,0 +1,54 @@
+.side-open{
+    animation-name: side-open;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+}
+@keyframes side-open {
+    from {
+        width: 5em;
+    }
+    to{
+        width: 18em;
+    }
+}
+
+.side-close{
+    animation-name: side-close;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+}
+@keyframes side-close {
+    from {
+        width: 18em;
+    }
+    to{
+        width: 5em;
+    }
+}
+.side-content-open{
+    animation-name: side-content-open;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+}
+@keyframes side-content-open {
+    from {
+        margin-left: 5em;
+    }
+    to{
+        margin-left: 18em;
+    }
+}
+
+.side-content-close{
+    animation-name: side-content-close;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+}
+@keyframes side-content-close {
+    from {
+        margin-left: 18em;
+    }
+    to{
+        margin-left: 5em;
+    }
+}

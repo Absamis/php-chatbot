@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.bg-color {
+    background-color: #0a58c7;
+    color: #fff;
+}
+.text-color {
+    color: #0a58c7;
+}
+
+.bg-color-light {
+    background-color: #e1e9f5;
+    color: #000;
+}
+.bg-color-outline{
+    border: 1px solid #0a58c7;
+}
+.bg-gray-outline{
+    border: 1.5px solid #cacaca;
+}
+.w-90{
+    width: 90%;
+}
+
+
+
+.cht-container{
+    width: 25em;
+    height: 85%;
+    position: fixed;
+    overflow-y: hidden;
+    z-index: 100;
+    display: flex;
+    bottom: 10%;
+    flex-direction: column;
+    right: 2%;
+}
+.cht-card{
+    display: none;
+    position: relative;
+    height: 90%;
+    flex-direction: column;
+    padding: 2px;
+    box-shadow: 1px 0px 4px #b1b1b1;
+    border-radius: 15px;
+}
+.cht-card .cht-card-header{
+    padding: 10px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.cht-card .cht-card-body{
+    /* overflow-y: auto; */
+    height: 100%;
+    padding: 7px;
+    overflow: auto;
+    /* overflow-x: hidden; */
+    /* background-color: red; */
+}
+.cht-card .cht-card-footer{
+    padding: 7px;
+    border-top: 2px solid #e7f3fc;
+    /* background-color: red; */
+}
+.cht-control-tab .control-icon{
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.chat-btn{
+    display: inline-block;
+    text-align: center;
+    padding: 3px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.cht-date{
+    padding: 7px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 7em;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 1px 0px 4px #dadada;
+}
+.cht-time{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.cht-message-block{
+    margin-bottom: 10px;
+    display: flex;
+}
+.cht-message-block .message, .cht-message-block .response{
+    /* display: block; */
+    padding: 6px 16px;
+    line-height: 1.24em;
+    font-weight: 400;
+    max-width: 75%;
+    border-radius: 7px;
+}
+.cht-message-block .message{
+    margin-left: auto;
+}
+.cht-message-block .message .state{
+    font-size: 10px;
+    color: #79b0fc;
+}
+.cht-form .cht-form-input{
+    border: 1px solid #c0d3f8;
+    padding: 7px 12px;
+    background-color: #f1f1f1;
+    border-radius: 17px;
+}
+.cht-form .cht-btn{
+    border: 1px solid #d1d1d1;
+    padding: 7px 12px;
+    background-color: transparent;
+    border-radius: 15px;
+    color: #0a58c7;
+}
+.cht-form .cht-btn:hover {
+    background-color: #0a58c7;
+    color: white;
+}
+.cht-form label.cht-btn{
+    margin-top: 13px;
+    padding: 0px;
+    cursor: pointer;
+    border: none;
+}
+.cht-form label.cht-btn:hover{
+    background-color: transparent;
+    color: #0a58c7;
+}
+
+@media screen and (max-width: 640px) {
+    .cht-container{
+        width: 100%;
+        bottom: 0%;
+        right: 0%;
+        height: 100%;
+    }
+}

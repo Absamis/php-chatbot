@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+    .md-invisible{
+        visibility: hidden;
+        position: absolute;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .side-bar{
+        width: 5em;
+    }
+    .side-bar-content{
+        margin-left: 5em;
+        width: 100%;
+    }
+}
