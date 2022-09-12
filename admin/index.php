@@ -124,9 +124,9 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                     } ?>
                 </div>
                 <div class="ml-auto">
-                    <span class="">
-                        <i class="fas fa-user-circle fa-2x"></i>
-                    </span>
+                    <a href="logout.php" class="btn btn-outline-danger">
+                        Logout <i class="fas f"></i>
+                    </a>
                 </div>
             </nav>
 
